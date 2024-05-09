@@ -12,6 +12,15 @@ For sake of brevity, we target only LaTeX format. If you are brave enough to wri
 - [Citations](#citations)
 
 
+## tl;dr
+
+These are only hints. You should at least stick to:
+
+- **Be consistent.** = No matter which style you use, use it consistenly.
+- **Be clear.** = Re-read your sentences. Avoid complicated wording.
+- _TODO: Add more._
+
+
 ## Template
 
 There are two basic templates for the thesis:
