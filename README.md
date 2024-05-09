@@ -77,7 +77,7 @@ _Note: End `%` ensures that there will be no linebreak._
 ## Figures
 
 1. Figure captions are sentences. So they end with a period.
-2. The command `\caption` can also handle an optional argument. That is used in the list of figures. Use it when the captions itself is too long, contains references, etc.
+2. The command `\caption` can also handle an optional argument. That is used in the list of figures. Use it when the captions itself is too long, contains references, etc. This short caption should not end with a period.
 
 
 ## References
