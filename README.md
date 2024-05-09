@@ -40,9 +40,8 @@ _Another note: `xspace` might act weirdly. But it has never happened to me._
   - English quotation marks are: **``** before text and **''** after the text. Note, that the second one is two times **'**. Differences can be seen [here](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html).
   - Czech quotation marks are done using `\uv{}`. This requires `\usepackage[czech]{babel}` or `\usepackage{cslatex}`.
 4. Writing a list of items in better done as an enumerated one as it looks slightly better:
-```
-...and we used multiple approaches: (i) Follow The Gap, (ii) Pure Pursuit, and (iii) some other cool technique.
-```
+_...and we used multiple approaches: (i) Follow The Gap, (ii) Pure Pursuit, and (iii) some other cool technique._
+
 You can use environment [`inlinelist`](https://github.com/jara001/latexextra.tex/blob/d3b877b06cade6557256f2435566307028b262bd/latexextra.tex#L191-L212) to do this:
 ```latex
 and we used multiple approaches:
