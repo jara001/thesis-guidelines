@@ -45,24 +45,6 @@ _Another note: `xspace` might act weirdly. But it has never happened to me._
 ```
 You can use environment [`inlinelist`](https://github.com/jara001/latexextra.tex/blob/d3b877b06cade6557256f2435566307028b262bd/latexextra.tex#L191-L212) to do this:
 ```latex
-% Inline list
-\usepackage[inline]{enumitem}
-
-% https://tex.stackexchange.com/questions/296098/counting-items-in-itemize-or-enumerate-environments
-% New inline list that we can count.
-% One optional argument: name of label to obtain number of elements
-\makeatletter
-\newenvironment{inlinelist}[1][]
-  {\def\countname{#1}\begin{enumerate*}[label=(\roman*), after=]
-  }
-  {%
-    \renewcommand{\@currentlabel}{\arabic{enumi}}%
-    \label{\countname}%
-    \end{enumerate*}%
-}% Comments are here to kinda fix the spacing after the inlinelist.
-\makeatother
-```
-```latex
 and we used multiple approaches:
 \begin{inlinelist}
     \item Follow The Gap,
