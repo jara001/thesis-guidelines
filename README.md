@@ -3,7 +3,7 @@ _A Work-in-Progress set of instructions and hints for writing (better) theses at
 
 For sake of brevity, we target only LaTeX format. If you are brave enough to write your thesis in, e.g., Word... I wish you luck. But these instructions should be also helpful.
 
-Another good source are from IMR [here](https://imr.ciirc.cvut.cz/uploads/Education/jak_napsat_BP.pdf) and [here](https://imr.ciirc.cvut.cz/uploads/Education/jak_prezentovat.pdf) (both Czech only).
+Very good sources are also presentations from IMR [here](https://imr.ciirc.cvut.cz/uploads/Education/jak_napsat_BP.pdf) and [here](https://imr.ciirc.cvut.cz/uploads/Education/jak_prezentovat.pdf) (both Czech only).
 
 
 **Table of Contents**
