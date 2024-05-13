@@ -64,6 +64,9 @@ and we used multiple approaches:
 \end{inlinelist}%
 ```
 _Note: End `%` ensures that there will be no linebreak._
+5. If you want to split a sentence, or add some breathing room into it, use `--` (long dash) or `;` (semicolon).
+6. Units: there are two ways: (i) use `siunitx` package, or (ii) typeset it manually using: `$0.5\,\text{m}$`.
+_Note: `\,` is a half space._
 
 ## Equations
 
@@ -78,6 +81,7 @@ _Note: End `%` ensures that there will be no linebreak._
 
 1. Figure captions are sentences. So they end with a period.
 2. The command `\caption` can also handle an optional argument. That is used in the list of figures. Use it when the captions itself is too long, contains references, etc. This short caption should not end with a period.
+3. When referencing a figure, use `in Figure` not `on`.
 
 
 ## References
