@@ -64,6 +64,7 @@ and we used multiple approaches:
 \end{inlinelist}%
 ```
 _Note: End `%` ensures that there will be no linebreak._
+
 5. If you want to split a sentence, or add some breathing room into it, use `--` (long dash) or `;` (semicolon).
 6. Units: there are two ways: (i) use `siunitx` package, or (ii) typeset it manually using: `$0.5\,\text{m}$`.
 _Note: `\,` is a half space._
